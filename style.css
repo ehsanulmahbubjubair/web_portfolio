@@ -1,6 +1,6 @@
 body
 {
-    
+   
     font-family: 'Gabarito', cursive;
     font-family: 'Poppins', sans-serif;
 }
@@ -8,4 +8,31 @@ body
 {
     color: red;
    
+}
+.half-width
+{
+    width: 50%;
+    height: 300px;
+    
+    float: left;
+}
+.half-width img
+{
+    width: 80%;
+    margin-left: 60px;
+    
+}
+.half-width p
+{
+    font-size: 10px;
+}
+.half-width button
+{
+    background-color: #F97B61;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 80px;
 }
