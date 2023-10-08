@@ -1,6 +1,7 @@
 body
 {
-   
+    
+   margin: 0;
     font-family: 'Gabarito', cursive;
     font-family: 'Poppins', sans-serif;
 }
@@ -11,40 +12,82 @@ body
 }
 .half-width
 {
-    width: 50%;
+    width: 45%;
     height: 300px;
-    
+    margin-left: 30px;
     float: left;
+   
+    margin-top: 10px;
 }
 .half-width img
 {
     width: 80%;
-    margin-left: 60px;
+    margin-left: 50px;
     
 }
 .half-width p
 {
     font-size: 10px;
 }
-.half-width button
+
+.top-banner
 {
-    background-color: #F97B61;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    height: 30px;
-    width: 80px;
+    background-image: url("images/top-banner.png");
+   
+    height: 400px;
+    background-repeat: no-repeat;
 }
-.rifat
+.link-button
 {
-    float: left;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: aliceblue;
+}
+.second-banner
+{
+   
+   background-image: url("images/dream-bg.png");
+   height: 300px;
+   background-repeat: no-repeat;
+   background-position: right;
+   position: relative;
+   
+}
+.last-section h3
+{
+   font-size: 15px;
+   color: red;
+}
+.expariance
+{
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 50px;
     height: 200px;
-    width: 200px;
 }
-.rifat img
+.last-section
 {
-    width: 100%;
-    border-radius: 50%;
-    float: right;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
+#baby
+{
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg,orange,red);
+    border-image-slice: 1;
+}
+#full
+{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(0, 13, 255),rgb(0, 255, 229));
+    border-image-slice: 1;
+}
+footer
+{
+    font-size: 10px;
+    text-align: center;
+    color: cadetblue;
 }
