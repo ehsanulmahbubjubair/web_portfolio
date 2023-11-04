@@ -10,24 +10,51 @@ body
     color: red;
    
 }
-.half-width
+h1{
+    font-size: 40px;
+}
+.half-width-left
 {
-    width: 45%;
+    width: 35%;
     height: 300px;
     margin-left: 30px;
     float: left;
-   
+    
     margin-top: 10px;
-}
-.half-width img
-{
-    width: 80%;
-    margin-left: 50px;
+    
     
 }
-.half-width p
+.half-width-right
 {
-    font-size: 10px;
+    width: 42%;
+    height: 100px;
+    margin-left: 30px;
+    float: left;
+    
+    margin-top: 10px;
+}
+.half-width-right img
+{
+    width: 80%;
+    margin-left: 300px;
+    margin-top: 50px;
+    
+}
+.second-banner .half-width-left img
+{
+    width: 80%;
+}
+.second-banner .half-width-left
+{
+    width: 42%;
+}
+.second-banner .half-width-right
+{
+    margin-left: 200px;
+}
+ p
+{
+    font-size: 20px;
 }
 
 .top-banner
@@ -36,13 +63,15 @@ body
    
     height: 400px;
     background-repeat: no-repeat;
+    margin-bottom: 200px;
+    
 }
 .link-button
 {
     text-decoration: none;
     background-image: linear-gradient(90deg, lightsalmon, tomato);
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 10px 10px;
     color: aliceblue;
 }
 .second-banner
@@ -53,6 +82,8 @@ body
    background-repeat: no-repeat;
    background-position: right;
    position: relative;
+   margin-bottom: 300px;
+   margin-left: 50px;
    
 }
 .last-section h3
@@ -64,7 +95,8 @@ body
 {
     box-shadow: 10px 10px 20px black;
     margin-bottom: 50px;
-    height: 200px;
+    height: 250px;
+    padding: 10px 10px;
 }
 .last-section
 {
@@ -72,22 +104,50 @@ body
     background-repeat: no-repeat;
     background-position: left;
     height: 400px;
+    margin-bottom: 50px;
+}
+.half-width-left1
+{
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+.half-width-right1
+{
+    float: left;
+    width: 40%;
+    margin-left: 50px;
 }
 #baby
 {
-    border-left: 5px solid;
+    border-left: 10px solid;
     border-image: linear-gradient(45deg,orange,red);
     border-image-slice: 1;
 }
 #full
 {
-    border-left: 5px solid;
+    border-left: 10px solid;
     border-image: linear-gradient(rgb(0, 13, 255),rgb(0, 255, 229));
     border-image-slice: 1;
 }
+.about-me a
+{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(122, 255, 217), rgb(38, 52, 243));
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: aliceblue;
+    margin-left: 635px;
+    
+}
+.about-me
+{
+   
+    margin-bottom: 200px;
+}
 footer
 {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     color: cadetblue;
 }
